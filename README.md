@@ -59,6 +59,12 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
+- Create a function
+- Select the player container div, and assign it to a constant
+- Create a new element for each of the Players array
+- Add attributes based off of the PLAYERS array using dot notation to access info
+- Append this to the constant
+- Outside of the function level scope, invoke this new function with the argument of the   Players array
 
 ```
 
@@ -70,5 +76,8 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
+Create a function that takes no arguments. The function is going to have a constant assigned the value of querying the document and selecting the first instance that matches the data-number 7, and removing it. 
+
+Finally, invoke this function.
 
 ```
