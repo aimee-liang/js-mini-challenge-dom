@@ -22,7 +22,7 @@ function displayPlayers(PLAYERS){
                 playersDiv.innerHTML = `
                     <h4>${player.name}</h4>
                     <h4>${player.nickname}</h4>
-                    <img src="${player.photo}>
+                    <img src="${player.photo}">
                 `;
                 
         playerClass.append(playersDiv)
