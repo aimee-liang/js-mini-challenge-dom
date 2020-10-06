@@ -26,6 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+Move the script tag under the <div> container. The HTML has to load before JavaScript can be implemented in this lab. This will change it from null to reflect the <header>.
 
 ```
 
@@ -35,6 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
+Header has its own attributes. You can access the color attribute by going to header, then style, then color.
 
 ```
 
