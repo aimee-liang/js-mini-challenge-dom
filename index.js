@@ -20,8 +20,8 @@ function displayPlayers(PLAYERS){
                 playersDiv.setAttribute("data-number", `${player.number}`);
 
                 playersDiv.innerHTML = `
-                    <h4>${player.name}</h4>
-                    <h4>${player.nickname}</h4>
+                    <h4>Name: ${player.name}</h4>
+                    <h4>Nickname: ${player.nickname}</h4>
                     <img src="${player.photo}">
                 `;
                 
