@@ -34,9 +34,7 @@ displayPlayers(PLAYERS)
 /***** Deliverable 4 *****/
 
 function removeMe(){
-// find the element that doesn't belong by assigning it to a constant and querying it
     const wrongGuy = document.querySelector(`[data-number='7']`);
-// .remove()
     wrongGuy.remove();
 }
 removeMe()
